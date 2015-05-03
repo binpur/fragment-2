@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="android:actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Widget.Styled.ActionBar" parent="AppTheme">
+        <item name="android:displayOptions">useLogo|showHome</item>
+        <item name="displayOptions">useLogo|showHome</item>
+    </style>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Task2</string>
+
+
+    <string name="title_section1">Fruits</string>
+    <string name="title_section2">Vegetable</string>
+    <string name="title_section3">Animals</string>
+    <string name="title_activity_show_image">ShowImageActivity</string>
+</resources>

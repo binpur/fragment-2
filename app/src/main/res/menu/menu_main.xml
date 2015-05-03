@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+
+    <item
+        android:id="@+id/icon_view_by_list"
+        android:icon="@drawable/list_icon"
+        app:showAsAction="always"
+        android:title="List"/>
+    <item
+        android:id="@+id/icon_view_by_grid"
+        android:icon="@drawable/grid_icon"
+        app:showAsAction="always"
+        android:title="Grid"/>
+
+</menu>

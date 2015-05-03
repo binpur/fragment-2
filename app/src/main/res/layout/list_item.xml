@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/list_item_bg">
+
+    <ImageView
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/round_button_1"
+        android:id="@+id/icon" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:textColor="@drawable/title_color_selector"
+            android:id="@+id/tv_title" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:textColor="@drawable/title_color_selector"
+            android:id="@+id/tv_date" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:textColor="@drawable/title_color_selector"
+            android:scrollHorizontally="true"
+            android:ellipsize="end"
+            android:fadingEdge="horizontal"
+            android:singleLine="true"
+            android:freezesText="true"
+            android:id="@+id/tv_description" />
+
+
+        </LinearLayout>
+
+
+
+
+</LinearLayout>
